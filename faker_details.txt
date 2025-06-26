@@ -1,0 +1,247 @@
+# FAKER MODULE - COMPREHENSIVE FIELD TYPES REFERENCE
+
+## 1. PERSONAL INFORMATION
+- name() - Full name
+- first_name() - First name only
+- last_name() - Last name only
+- first_name_male() - Male first name
+- first_name_female() - Female first name
+- middle_name() - Middle name
+- name_male() - Full male name
+- name_female() - Full female name
+- prefix() - Name prefix (Mr., Mrs., Dr., etc.)
+- suffix() - Name suffix (Jr., Sr., etc.)
+- profile() - Complete user profile
+- simple_profile() - Basic user profile
+
+## 2. CONTACT INFORMATION
+- email() - Email address
+- company_email() - Company email
+- free_email() - Free email provider
+- safe_email() - Safe email (example.com domain)
+- phone_number() - Phone number
+- msisdn() - Mobile phone number
+- address() - Full address
+- street_address() - Street address only
+- building_number() - Building number
+- street_name() - Street name
+- street_suffix() - Street suffix (St, Ave, etc.)
+- secondary_address() - Apartment, suite number
+
+## 3. GEOGRAPHIC DATA
+- country() - Country name
+- country_code() - Country code (US, IN, etc.)
+- city() - City name
+- state() - State/province name
+- state_abbr() - State abbreviation
+- postcode() - Postal/ZIP code
+- latitude() - Latitude coordinate
+- longitude() - Longitude coordinate
+- coordinate() - Random coordinate
+- latlng() - Latitude and longitude tuple
+- local_latlng() - Local coordinates for country
+
+## 4. INTERNET & TECHNOLOGY
+- url() - Website URL
+- domain_name() - Domain name
+- domain_word() - Domain word part
+- tld() - Top-level domain (.com, .org)
+- slug() - URL slug
+- user_name() - Username
+- password() - Password
+- ipv4() - IPv4 address
+- ipv6() - IPv6 address
+- mac_address() - MAC address
+- http_method() - HTTP method (GET, POST, etc.)
+- uri() - URI path
+- uri_extension() - File extension
+- uri_page() - Page name
+- uri_path() - URI path
+
+## 5. TEXT CONTENT
+- text() - Random text paragraph
+- sentence() - Single sentence
+- sentences() - Multiple sentences
+- paragraph() - Single paragraph
+- paragraphs() - Multiple paragraphs
+- word() - Single word
+- words() - Multiple words
+- bothify() - Text with numbers and letters
+- lexify() - Text with letters only
+- numerify() - Text with numbers
+
+## 6. LOREM IPSUM
+- lorem.text() - Lorem ipsum text
+- lorem.paragraph() - Lorem ipsum paragraph
+- lorem.sentence() - Lorem ipsum sentence
+- lorem.word() - Lorem ipsum word
+- lorem.words() - Lorem ipsum words
+
+## 7. DATE & TIME
+- date() - Random date
+- date_time() - Random datetime
+- time() - Random time
+- future_date() - Future date
+- past_date() - Past date
+- date_between() - Date between two dates
+- date_this_century() - Date from this century
+- date_this_decade() - Date from this decade
+- date_this_year() - Date from this year
+- date_this_month() - Date from this month
+- timezone() - Timezone name
+- iso8601() - ISO 8601 datetime
+- unix_time() - Unix timestamp
+
+## 8. FINANCIAL DATA
+- credit_card_number() - Credit card number
+- credit_card_provider() - Credit card provider
+- credit_card_security_code() - CVV/CVC code
+- credit_card_expire() - Expiration date
+- iban() - International Bank Account Number
+- bban() - Basic Bank Account Number
+- swift() - SWIFT code
+- swift8() - 8-character SWIFT code
+- swift11() - 11-character SWIFT code
+- currency() - Currency name
+- currency_code() - Currency code (USD, EUR, etc.)
+- cryptocurrency() - Cryptocurrency name
+- cryptocurrency_code() - Crypto code (BTC, ETH, etc.)
+
+## 9. BUSINESS & PROFESSIONAL
+- company() - Company name
+- company_suffix() - Company suffix (Inc, LLC, etc.)
+- catch_phrase() - Company catchphrase
+- bs() - Business speak/buzzwords
+- job() - Job title
+- company_email() - Company email address
+
+## 10. AUTOMOTIVE
+- license_plate() - License plate number
+- vin() - Vehicle Identification Number
+
+## 11. COLORS & DESIGN
+- color_name() - Color name (red, blue, etc.)
+- hex_color() - Hexadecimal color code
+- rgb_color() - RGB color values
+- safe_color_name() - Safe color name
+- safe_hex_color() - Safe hex color
+
+## 12. SCIENTIFIC & TECHNICAL
+- ssn() - Social Security Number
+- ein() - Employer Identification Number
+- random_int() - Random integer
+- random_digit() - Random digit (0-9)
+- random_digit_not_null() - Random digit (1-9)
+- random_element() - Random element from list
+- random_sample() - Random sample from list
+- pyfloat() - Random float
+- pydecimal() - Random decimal
+- pyint() - Random integer
+- pybool() - Random boolean
+
+## 13. FILE & MEDIA
+- file_name() - Random filename
+- file_extension() - File extension
+- file_path() - File path
+- unix_path() - Unix-style path
+- windows_path() - Windows-style path
+- mime_type() - MIME type
+- image_url() - Image URL
+- image() - Generate image file
+
+## 14. BARCODE & IDENTIFIERS
+- uuid4() - UUID version 4
+- md5() - MD5 hash
+- sha1() - SHA1 hash
+- sha256() - SHA256 hash
+- ean() - European Article Number
+- ean8() - EAN-8 barcode
+- ean13() - EAN-13 barcode
+- isbn10() - ISBN-10
+- isbn13() - ISBN-13
+
+## 15. PROGRAMMING & TECHNICAL
+- pystr() - Python string
+- pylist() - Python list
+- pytuple() - Python tuple
+- pyset() - Python set
+- pydict() - Python dictionary
+- json() - JSON data
+- binary() - Binary data
+- null_boolean() - Null or boolean
+
+## 16. SPECIALIZED DATA TYPES
+- locale() - Locale code
+- language_code() - Language code
+- language_name() - Language name
+- military_ship() - Military ship name
+- military_state() - Military state
+- military_dpo() - Military DPO
+- military_apo() - Military APO
+
+## 17. MEDICAL & HEALTH
+- blood_type() - Blood type (A+, B-, etc.)
+
+## 18. MEASUREMENT & UNITS
+- coordinate() - Geographic coordinate
+- metric_length() - Metric length measurement
+- imperial_length() - Imperial length measurement
+
+## 19. LOCALIZED DATA (for 'en_IN' locale)
+- Indian names (first/last names)
+- Indian addresses and cities
+- Indian phone number formats
+- Indian company names
+- Local postal codes
+- Regional specific data
+
+## 20. CUSTOM PATTERNS
+- bothify(text='##??') - Mix of numbers and letters
+- lexify(text='????') - Letters only pattern
+- numerify(text='###') - Numbers only pattern
+- pystr_format() - Custom string format
+
+## USAGE EXAMPLES:
+```python
+from faker import Faker
+fake = Faker('en_IN')
+
+# Basic usage
+name = fake.name()
+email = fake.email()
+phone = fake.phone_number()
+
+# With parameters
+date = fake.date_between(start_date='-30y', end_date='today')
+text = fake.text(max_nb_chars=200)
+number = fake.random_int(min=1, max=100)
+
+# Custom patterns
+code = fake.bothify(text='??-####')  # AB-1234
+license = fake.lexify(text='????')   # ABCD
+id_num = fake.numerify(text='###')   # 123
+```
+
+## PROVIDER CATEGORIES:
+The Faker library organizes providers into categories:
+- faker.providers.address
+- faker.providers.automotive
+- faker.providers.bank
+- faker.providers.barcode
+- faker.providers.color
+- faker.providers.company
+- faker.providers.credit_card
+- faker.providers.currency
+- faker.providers.date_time
+- faker.providers.file
+- faker.providers.internet
+- faker.providers.job
+- faker.providers.lorem
+- faker.providers.misc
+- faker.providers.person
+- faker.providers.phone_number
+- faker.providers.python
+- faker.providers.ssn
+- faker.providers.user_agent
+
+Total: 200+ different field types across all categories!
